@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T02:26:44.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="C142YZATWkICOKuUrHcZ" version="17.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T04:42:42.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="lhypqCSCiNl2-c6q7v-l" version="17.2.2" type="github">
   <diagram id="SoxulUV7DYU3LQr3ddv9" name="Page-1">
     <mxGraphModel dx="2098" dy="834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,48 +135,27 @@
             <mxPoint x="40" y="974" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kLE8z7TuyH_LmG3M7gqM-7" value="2. Is GTID applied" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kLE8z7TuyH_LmG3M7gqM-5" vertex="1" connectable="0">
+        <mxCell id="kLE8z7TuyH_LmG3M7gqM-7" value="3. Is GTID applied" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kLE8z7TuyH_LmG3M7gqM-5" vertex="1" connectable="0">
           <mxGeometry x="0.0844" y="-20" relative="1" as="geometry">
             <mxPoint x="-7" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kLE8z7TuyH_LmG3M7gqM-57" value="&lt;font style=&quot;font-size: 11px&quot;&gt;3. update replica success rate&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" edge="1">
+        <mxCell id="kLE8z7TuyH_LmG3M7gqM-57" value="&lt;font style=&quot;font-size: 11px&quot;&gt;2. check if the replica is denied access&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" edge="1">
           <mxGeometry x="0.4488" y="17" relative="1" as="geometry">
             <mxPoint x="-264" y="1098" as="targetPoint" />
             <mxPoint x="-130" y="978" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kLE8z7TuyH_LmG3M7gqM-77" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" edge="1">
+        <mxCell id="K1roMd_s_qYFRvlsoPXz-112" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startSize=6;sourcePerimeterSpacing=0;curved=1;" edge="1" parent="1" source="kLE8z7TuyH_LmG3M7gqM-2" target="K1roMd_s_qYFRvlsoPXz-100">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-131" y="932" as="sourcePoint" />
-            <mxPoint x="-134" y="766" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-131" y="930" />
-              <mxPoint x="-204" y="930" />
-              <mxPoint x="-204" y="766" />
+              <mxPoint x="-25" y="1264" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kLE8z7TuyH_LmG3M7gqM-80" value="4. Update status based on success rate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="kLE8z7TuyH_LmG3M7gqM-77" vertex="1" connectable="0">
-          <mxGeometry x="-0.1197" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kLE8z7TuyH_LmG3M7gqM-78" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="kLE8z7TuyH_LmG3M7gqM-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="48" y="762" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="34" y="925" />
-              <mxPoint x="110" y="925" />
-              <mxPoint x="110" y="762" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kLE8z7TuyH_LmG3M7gqM-79" value="1. Round-robin select one open or closed after 2 mins replica&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="kLE8z7TuyH_LmG3M7gqM-78" vertex="1" connectable="0">
-          <mxGeometry x="0.0016" y="1" relative="1" as="geometry">
-            <mxPoint x="41" y="-15" as="offset" />
-          </mxGeometry>
+        <mxCell id="K1roMd_s_qYFRvlsoPXz-114" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.511;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;startSize=6;sourcePerimeterSpacing=0;" edge="1" parent="1" source="kLE8z7TuyH_LmG3M7gqM-2" target="K1roMd_s_qYFRvlsoPXz-109">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kLE8z7TuyH_LmG3M7gqM-2" value="Replica Manager" style="rounded=1;whiteSpace=wrap;html=1;arcSize=34;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-119" y="930" width="152.51" height="70" as="geometry" />
@@ -617,7 +596,7 @@
           <mxGeometry x="-412" y="1103" width="103" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K1roMd_s_qYFRvlsoPXz-102" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;swimlaneLine=0;" vertex="1" parent="1">
-          <mxGeometry x="-99.74000000000001" y="708" width="114" height="85" as="geometry" />
+          <mxGeometry x="-102.00000000000001" y="770" width="114" height="85" as="geometry" />
         </mxCell>
         <mxCell id="K1roMd_s_qYFRvlsoPXz-103" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;swimlaneLine=0;" vertex="1" parent="K1roMd_s_qYFRvlsoPXz-102">
           <mxGeometry width="114" height="21" as="geometry" />
@@ -649,6 +628,14 @@
         <mxCell id="K1roMd_s_qYFRvlsoPXz-110" value="Replica n" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=11;swimlaneLine=0;" vertex="1" parent="K1roMd_s_qYFRvlsoPXz-109">
           <mxGeometry width="114" height="21" as="geometry">
             <mxRectangle width="114" height="21" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K1roMd_s_qYFRvlsoPXz-111" value="4. Update status based on the GTID applied result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1" y="1101" as="geometry" />
+        </mxCell>
+        <mxCell id="K1roMd_s_qYFRvlsoPXz-113" value="1. Round-robin select one replica&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-228" y="977.00000999999" as="geometry">
+            <mxPoint x="203" y="-85" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
