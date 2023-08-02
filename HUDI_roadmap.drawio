@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T07:45:02.942Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="J-7DA9rLMnXU6XiZ4IyS" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T12:13:41.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Wn-wMMxbKWMEKx5AojMC" version="21.6.6" type="github">
   <diagram name="Page-1" id="R0FIyfisDtVrJZoIkp6r">
-    <mxGraphModel dx="2133" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,18 +8,23 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d55Q-Z8V3TNJqYMnC0qO-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d55Q-Z8V3TNJqYMnC0qO-1" target="d55Q-Z8V3TNJqYMnC0qO-19">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="380" />
+              <mxPoint x="40" y="490" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="d55Q-Z8V3TNJqYMnC0qO-1" value="HUDI roadmap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d55Q-Z8V3TNJqYMnC0qO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="d55Q-Z8V3TNJqYMnC0qO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="d55Q-Z8V3TNJqYMnC0qO-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="285" y="295" as="sourcePoint" />
             <mxPoint x="395" y="70" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="345" y="295" />
-              <mxPoint x="345" y="70" />
+              <mxPoint x="350" y="225" />
+              <mxPoint x="350" y="70" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -36,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d55Q-Z8V3TNJqYMnC0qO-2" value="HUDI capability" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="270" width="120" height="50" as="geometry" />
+          <mxGeometry x="180" y="200" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d55Q-Z8V3TNJqYMnC0qO-6" value="1. Schema evolution" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="400" y="40" width="120" height="60" as="geometry" />
@@ -71,8 +76,11 @@
         <mxCell id="d55Q-Z8V3TNJqYMnC0qO-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d55Q-Z8V3TNJqYMnC0qO-19" target="d55Q-Z8V3TNJqYMnC0qO-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="d55Q-Z8V3TNJqYMnC0qO-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d55Q-Z8V3TNJqYMnC0qO-19" target="d55Q-Z8V3TNJqYMnC0qO-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="d55Q-Z8V3TNJqYMnC0qO-19" value="User pains" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="171" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d55Q-Z8V3TNJqYMnC0qO-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d55Q-Z8V3TNJqYMnC0qO-21" target="d55Q-Z8V3TNJqYMnC0qO-38">
           <mxGeometry relative="1" as="geometry">
@@ -92,10 +100,10 @@
         <mxCell id="d55Q-Z8V3TNJqYMnC0qO-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d55Q-Z8V3TNJqYMnC0qO-23" target="d55Q-Z8V3TNJqYMnC0qO-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d55Q-Z8V3TNJqYMnC0qO-23" value="2. Hard to transfer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="d55Q-Z8V3TNJqYMnC0qO-23" value="2. Hard to migrate" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="465" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="d55Q-Z8V3TNJqYMnC0qO-27" value="3. Static resource" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="d55Q-Z8V3TNJqYMnC0qO-27" value="3. Resource sensitive" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d55Q-Z8V3TNJqYMnC0qO-38" value="Spark own Writer: https://github.com/apache/hudi/pull/5629" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -110,8 +118,11 @@
         <mxCell id="d55Q-Z8V3TNJqYMnC0qO-45" value="Need to provide hoodieKey:&amp;nbsp;https://github.com/apache/hudi/pull/8107" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="597" y="510" width="383" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d55Q-Z8V3TNJqYMnC0qO-48" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 41px;&quot;&gt;Roadmap&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;ol style=&quot;&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;migrate table, hive -&amp;gt; hudi(Can only rely on bootstrap)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="680" width="1100" height="380" as="geometry" />
+        <mxCell id="d55Q-Z8V3TNJqYMnC0qO-48" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 41px;&quot;&gt;Roadmap&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;ol style=&quot;&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;P0: migrate table, hive -&amp;gt; hudi(Can only rely on bootstrap)(10% jobs are HUDI job)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;User trigger this action(platform or not?)&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Have a freeze window&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Schema evolution support&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;P2: Non-HUDI key jobs, auto gen HUDI key&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;P1: Writer performance improvement: Spark own Writer&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;P2: Spark DSV2&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="830" width="1100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="d55Q-Z8V3TNJqYMnC0qO-49" value="5. Batch update(Update too much data at once)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
