@@ -1,9 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T10:11:58.007Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.8" etag="dlOJxMx2A_sg4ri4GGFA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-15T11:05:09.611Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="w5U_HJ10Gf9FO2jynVtA" version="21.6.8" type="github">
   <diagram name="Page-1" id="N6vm7h6PkNqcWS5yT1Tq">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DPim_uJMLFudp5h5GO5p-26" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="641" width="804" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DPim_uJMLFudp5h5GO5p-1" target="DPim_uJMLFudp5h5GO5p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-1" value="GenericOptionsParser" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="198" y="156" width="139" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;GenericOptionsParser&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;line-height: 0%;&quot;&gt;Parse hadoop own options(like resources, parallelism)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="339" y="150.5" width="336" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DPim_uJMLFudp5h5GO5p-3" target="DPim_uJMLFudp5h5GO5p-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-3" value="Distcp.run(remaingArgs)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="196.5" y="301" width="140.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="DPim_uJMLFudp5h5GO5p-5" target="DPim_uJMLFudp5h5GO5p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-5" value="DisctpContext" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-8" y="301" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DPim_uJMLFudp5h5GO5p-7" target="DPim_uJMLFudp5h5GO5p-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-7" value="checkSplitLargeFiles" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="206.75" y="441" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-9" value="Whether to split large files into blocks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="333" y="456" width="219" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DPim_uJMLFudp5h5GO5p-10" target="DPim_uJMLFudp5h5GO5p-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-10" value="CreateMetaFolder(stagingDir)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="182.38" y="563" width="170.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-12" value="CopyMapper" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="31" y="793.5" width="100" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-13" value="InputFormat&lt;br&gt;(UniformSizeInputFormat/DynamicInputFormat)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="789.5" width="265" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-14" value="Do copy at task level" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-54" y="800.5" width="78" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-15" value="DisctpSync" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="672.5" width="108" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-16" value="diff/rdiff for snapshot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-17" y="644" width="153" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPim_uJMLFudp5h5GO5p-17" target="DPim_uJMLFudp5h5GO5p-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="706" />
+              <mxPoint x="157" y="706" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-24" value="If enabled" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DPim_uJMLFudp5h5GO5p-23">
+          <mxGeometry x="0.0446" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.459;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DPim_uJMLFudp5h5GO5p-17" target="DPim_uJMLFudp5h5GO5p-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-17" value="BuildFileListing" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="206.745" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-19" value="A file that cotains all sources and directories" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="333" y="668" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-20" value="CopyCommitter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="431" y="794.5" width="112" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-22" value="&lt;h1&gt;CopyCommitter&lt;/h1&gt;&lt;p&gt;Clean temp locations and temp files and working dir if enables atomicWrite&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="768" width="199" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="DPim_uJMLFudp5h5GO5p-28" value="Execute" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="675" y="646" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
