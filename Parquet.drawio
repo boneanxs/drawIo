@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T07:06:22.145Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="j__GaWehgJyw-YaNMJSw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-18T08:00:34.350Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="dcZUf-TVC4sy4UslKtLV" version="21.6.8" type="github">
   <diagram name="Page-1" id="2qMB0XkRHRjD8pTcpV2D">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-12" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="204" width="142" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-5" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="346.5" y="194" width="191" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-2" value="InternalParquetRecordWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="61" width="170" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-3" value="ColumnChunkPageWriteStore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="233" width="175" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-4" value="ColumnChunkPageWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="363" y="201" width="158" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-6" value="ColumnChunkPageWriter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="363" y="266" width="158" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-7" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="403.5" y="236.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_8lU7MxMsSCH1Ioih2UR-8" target="_8lU7MxMsSCH1Ioih2UR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-8" value="ColumnIOFactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-117.5" y="124" width="115" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-9" value="MessageColumnIO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-116.5" y="210" width="113" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-10" value="ColumnWriters" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="264" width="122" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.007;exitY=0.45;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_8lU7MxMsSCH1Ioih2UR-12" target="_8lU7MxMsSCH1Ioih2UR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-25" y="445" as="sourcePoint" />
+            <mxPoint x="25" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_8lU7MxMsSCH1Ioih2UR-14" value="ColumnWriterStore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="181" y="177" width="117" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
