@@ -1,10 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2024-05-15T13:38:06.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Nx31FhATQo4O6EDoK5Xa" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-15T13:59:44.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="w350Tx5X2yavjbL-Lzft" version="24.4.0" type="github">
   <diagram name="Page-1" id="_xi6Wx_7S5UfhA1Rrceh">
     <mxGraphModel dx="2758" dy="1239" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cBgklGd9g9aZScbTZ4iY-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cBgklGd9g9aZScbTZ4iY-1" target="cBgklGd9g9aZScbTZ4iY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBgklGd9g9aZScbTZ4iY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="cBgklGd9g9aZScbTZ4iY-1" target="cBgklGd9g9aZScbTZ4iY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cBgklGd9g9aZScbTZ4iY-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cBgklGd9g9aZScbTZ4iY-1" target="cBgklGd9g9aZScbTZ4iY-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cBgklGd9g9aZScbTZ4iY-1" value="Itinerary" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
@@ -24,6 +30,12 @@
         </mxCell>
         <mxCell id="cBgklGd9g9aZScbTZ4iY-6" value="2. 计划去哪" style="whiteSpace=wrap;html=1;fontSize=21;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="457" y="226" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cBgklGd9g9aZScbTZ4iY-8" value="软件名" style="whiteSpace=wrap;html=1;fontSize=21;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-341" y="271" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cBgklGd9g9aZScbTZ4iY-10" value="软件颜色" style="whiteSpace=wrap;html=1;fontSize=21;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-357" y="402" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
