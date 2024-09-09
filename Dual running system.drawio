@@ -90,7 +90,7 @@
           <mxGeometry x="45" y="133" width="10" height="261" as="geometry" />
         </mxCell>
         <mxCell id="AuG3FRn_L_Xpiaep_0qI-46" value="Dual Running Manager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="-87" y="1305" width="100" height="496" as="geometry" />
+          <mxGeometry x="-87" y="1305" width="100" height="574" as="geometry" />
         </mxCell>
         <mxCell id="AuG3FRn_L_Xpiaep_0qI-47" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="AuG3FRn_L_Xpiaep_0qI-46" vertex="1">
           <mxGeometry x="45" y="194" width="10" height="137" as="geometry" />
@@ -114,13 +114,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AuG3FRn_L_Xpiaep_0qI-52" value="Dual Running Task Store" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="142" y="1305" width="100" height="498" as="geometry" />
+          <mxGeometry x="142" y="1305" width="100" height="574" as="geometry" />
         </mxCell>
         <mxCell id="AuG3FRn_L_Xpiaep_0qI-53" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="AuG3FRn_L_Xpiaep_0qI-52" vertex="1">
           <mxGeometry x="45" y="200" width="10" height="35" as="geometry" />
         </mxCell>
         <mxCell id="AuG3FRn_L_Xpiaep_0qI-56" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="AuG3FRn_L_Xpiaep_0qI-52" vertex="1">
           <mxGeometry x="45" y="260" width="10" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AuG3FRn_L_Xpiaep_0qI-52">
+          <mxGeometry x="45" y="454" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AuG3FRn_L_Xpiaep_0qI-54" value="3.1 Should enable dual run" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" parent="1" target="AuG3FRn_L_Xpiaep_0qI-53" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -145,7 +148,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AuG3FRn_L_Xpiaep_0qI-59" value="Dual Running Upgradation Runner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="359" y="1307" width="100" height="494" as="geometry" />
+          <mxGeometry x="359" y="1307" width="100" height="575" as="geometry" />
         </mxCell>
         <mxCell id="AuG3FRn_L_Xpiaep_0qI-62" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="AuG3FRn_L_Xpiaep_0qI-59" vertex="1">
           <mxGeometry x="45" y="339" width="10" height="80" as="geometry" />
@@ -161,10 +164,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AuG3FRn_L_Xpiaep_0qI-65" value="Dual Running Validation Manager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="10" y="1931" width="100" height="601" as="geometry" />
+          <mxGeometry x="10" y="1931" width="100" height="777" as="geometry" />
         </mxCell>
         <mxCell id="DmJoxFddULVMHlRJaVPf-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AuG3FRn_L_Xpiaep_0qI-65">
-          <mxGeometry x="45" y="339" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="339" width="10" height="387" as="geometry" />
         </mxCell>
         <mxCell id="DmJoxFddULVMHlRJaVPf-4" value="Continue consume validation queue" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="DmJoxFddULVMHlRJaVPf-3" parent="AuG3FRn_L_Xpiaep_0qI-65">
           <mxGeometry relative="1" as="geometry">
@@ -175,7 +178,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AuG3FRn_L_Xpiaep_0qI-66" value="Dual Running Kafka Consumer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="-466" y="1931" width="100" height="601" as="geometry" />
+          <mxGeometry x="-466" y="1931" width="100" height="759" as="geometry" />
         </mxCell>
         <mxCell id="AuG3FRn_L_Xpiaep_0qI-69" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="AuG3FRn_L_Xpiaep_0qI-66" vertex="1">
           <mxGeometry x="46" y="151" width="10" height="40" as="geometry" />
@@ -195,7 +198,7 @@
           <mxGeometry x="-520" y="2181" width="325" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DmJoxFddULVMHlRJaVPf-1" value="Dual Running Validation Queue" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-214" y="1931" width="100" height="601" as="geometry" />
+          <mxGeometry x="-214" y="1931" width="100" height="768" as="geometry" />
         </mxCell>
         <mxCell id="DmJoxFddULVMHlRJaVPf-2" value="Send to validation queue" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="DmJoxFddULVMHlRJaVPf-1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -204,13 +207,73 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DmJoxFddULVMHlRJaVPf-5" value="Dual Running Task Store" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="299" y="1931" width="100" height="612" as="geometry" />
+          <mxGeometry x="292" y="1929" width="100" height="765" as="geometry" />
         </mxCell>
-        <mxCell id="DmJoxFddULVMHlRJaVPf-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DmJoxFddULVMHlRJaVPf-5">
-          <mxGeometry x="45" y="200" width="10" height="35" as="geometry" />
+        <mxCell id="DmJoxFddULVMHlRJaVPf-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DmJoxFddULVMHlRJaVPf-5">
+          <mxGeometry x="45" y="391" width="10" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="DmJoxFddULVMHlRJaVPf-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DmJoxFddULVMHlRJaVPf-5">
-          <mxGeometry x="45" y="260" width="10" height="62" as="geometry" />
+        <mxCell id="DmJoxFddULVMHlRJaVPf-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DmJoxFddULVMHlRJaVPf-5">
+          <mxGeometry x="45" y="555" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-8" value="Update Task status to validating" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="DmJoxFddULVMHlRJaVPf-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="61" y="2316" as="sourcePoint" />
+            <mxPoint x="141" y="2316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-10" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="AuG3FRn_L_Xpiaep_0qI-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="367" y="2382" as="sourcePoint" />
+            <mxPoint x="287" y="2382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-11" value="Dual Running Validation Runner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="474" y="1931" width="100" height="776" as="geometry" />
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DmJoxFddULVMHlRJaVPf-11">
+          <mxGeometry x="45" y="483" width="10" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-14" value="Set up validation runner with validation context" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="DmJoxFddULVMHlRJaVPf-13" parent="1" source="AuG3FRn_L_Xpiaep_0qI-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554" y="2419" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-15" value="return validation result" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="DmJoxFddULVMHlRJaVPf-13" parent="1" target="AuG3FRn_L_Xpiaep_0qI-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554" y="2489" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-17" value="Update validation result to store" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="DmJoxFddULVMHlRJaVPf-16" parent="1" source="AuG3FRn_L_Xpiaep_0qI-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="293" y="2491" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-18" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="DmJoxFddULVMHlRJaVPf-16" parent="1" target="AuG3FRn_L_Xpiaep_0qI-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="293" y="2561" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-20" value="5. Update task status" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="DmJoxFddULVMHlRJaVPf-19" parent="1" source="AuG3FRn_L_Xpiaep_0qI-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="117" y="1764" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-21" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="DmJoxFddULVMHlRJaVPf-19" parent="1" target="AuG3FRn_L_Xpiaep_0qI-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="117" y="1834" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-22" value="Spark Config Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="654" y="1931" width="100" height="782" as="geometry" />
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DmJoxFddULVMHlRJaVPf-22">
+          <mxGeometry x="47" y="659" width="10" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="DmJoxFddULVMHlRJaVPf-24" value="Update configures to Spark Config Server" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="DmJoxFddULVMHlRJaVPf-22">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="64" y="2592" as="sourcePoint" />
+            <mxPoint x="144" y="2592" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
