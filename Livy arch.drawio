@@ -437,6 +437,24 @@
         <mxCell id="MgTznX3Nh4NJQTIRdK1o-139" value="Temporary Redirect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1149.5" y="2552" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MgTznX3Nh4NJQTIRdK1o-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MgTznX3Nh4NJQTIRdK1o-142" target="MgTznX3Nh4NJQTIRdK1o-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgTznX3Nh4NJQTIRdK1o-142" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="325.5" y="2111" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MgTznX3Nh4NJQTIRdK1o-147" value="Create Session" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="2241" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MgTznX3Nh4NJQTIRdK1o-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MgTznX3Nh4NJQTIRdK1o-152" target="MgTznX3Nh4NJQTIRdK1o-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MgTznX3Nh4NJQTIRdK1o-152" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510.5" y="2111" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MgTznX3Nh4NJQTIRdK1o-153" value="Get Session" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463" y="2241" width="125" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
