@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="TpKMdH9AaQC-8ES71EPt">
+    <mxGraphModel dx="1703" dy="1257" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aowlVvYLpKqWqpQogFFT-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据层" vertex="1">
+          <mxGeometry height="60" width="504" x="-766" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="aowlVvYLpKqWqpQogFFT-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AI研究员" vertex="1">
+          <mxGeometry height="80" width="238" x="-505" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="aowlVvYLpKqWqpQogFFT-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="产品后端" vertex="1">
+          <mxGeometry height="80" width="255" x="-768" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="aowlVvYLpKqWqpQogFFT-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="-550" y="263" as="geometry" />
+        </mxCell>
+        <mxCell id="aowlVvYLpKqWqpQogFFT-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="APP" vertex="1">
+          <mxGeometry height="42" width="58" x="-525" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="aowlVvYLpKqWqpQogFFT-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="网页" vertex="1">
+          <mxGeometry height="42" width="58" x="-596" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="aowlVvYLpKqWqpQogFFT-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="B端" vertex="1">
+          <mxGeometry height="80" width="60" x="-381" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="aowlVvYLpKqWqpQogFFT-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="财务报表" vertex="1">
+          <mxGeometry height="60" width="120" x="-387" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="aowlVvYLpKqWqpQogFFT-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="业绩说明会" vertex="1">
+          <mxGeometry height="60" width="120" x="-512" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="aowlVvYLpKqWqpQogFFT-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="财经媒体" vertex="1">
+          <mxGeometry height="60" width="120" x="-638" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="aowlVvYLpKqWqpQogFFT-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="社交媒体" vertex="1">
+          <mxGeometry height="60" width="120" x="-764" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="aowlVvYLpKqWqpQogFFT-13" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Finanial Manager" vertex="1">
+          <mxGeometry height="60" width="30" x="-338" y="635" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
