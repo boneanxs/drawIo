@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0">
   <diagram name="Page-1" id="ihr1n8eSguenb38d3ETr">
-    <mxGraphModel dx="1598" dy="3904" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="3798" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#cce5ff;strokeColor=#36393d;" value="" vertex="1">
+          <mxGeometry height="263" width="262" x="1688" y="-229" as="geometry" />
+        </mxCell>
         <mxCell id="kH2TLKGzhJAVm2rWxuwT-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#cce5ff;strokeColor=#36393d;" value="" vertex="1">
           <mxGeometry height="120" width="530" x="70" y="-1799" as="geometry" />
         </mxCell>
@@ -669,6 +672,84 @@
         </mxCell>
         <mxCell id="kH2TLKGzhJAVm2rWxuwT-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" value="Runtime Injection" vertex="1">
           <mxGeometry height="24.5" width="100" x="2004" y="-2254" as="geometry" />
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Native ColumnarToRow" vertex="1">
+          <mxGeometry height="60" width="177" x="1361" y="-191" as="geometry" />
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Project(udf(a), get_json_obj(b))" vertex="1">
+          <mxGeometry height="60" width="174" x="1361" y="-94" as="geometry" />
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Native RowToColumnar" vertex="1">
+          <mxGeometry height="60" width="176" x="1359" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-4" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1447.5" y="-27" as="sourcePoint" />
+            <mxPoint x="1447.5" y="4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-5" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1445" y="-128" as="sourcePoint" />
+            <mxPoint x="1445" y="-97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-6" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1579" y="-56" as="sourcePoint" />
+            <mxPoint x="1639" y="-56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PartialProject" vertex="1">
+          <mxGeometry height="30" width="60" x="1703" y="-233" as="geometry" />
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="b(columnar)" vertex="1">
+          <mxGeometry height="30" width="85" x="1708" y="-203" as="geometry" />
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="a(columnar)" vertex="1">
+          <mxGeometry height="30" width="85" x="1829.5" y="-203" as="geometry" />
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1868" y="-170" as="sourcePoint" />
+            <mxPoint x="1868" y="-146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Native ColumnarToRow" vertex="1">
+          <mxGeometry height="36" width="125" x="1816" y="-142" as="geometry" />
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1870" y="-101" as="sourcePoint" />
+            <mxPoint x="1870" y="-77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="JVM UDF" vertex="1">
+          <mxGeometry height="30" width="126" x="1816" y="-75" as="geometry" />
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Native RowToColumnar" vertex="1">
+          <mxGeometry height="36" width="126" x="1816" y="-15" as="geometry" />
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1871" y="-42" as="sourcePoint" />
+            <mxPoint x="1871" y="-18" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-30" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1745" y="-156" as="sourcePoint" />
+            <mxPoint x="1745" y="-17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Native Project(udf_a, get_json_obj(b))" vertex="1">
+          <mxGeometry height="60" width="250" x="1692" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="thOhIxKKZVpCRTVjWAXk-33" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1813.5" y="38" as="sourcePoint" />
+            <mxPoint x="1813.5" y="69" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
