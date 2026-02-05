@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
   <diagram name="Page-1" id="ihr1n8eSguenb38d3ETr">
-    <mxGraphModel dx="1826" dy="4000" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="3889" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -736,8 +736,8 @@
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-1" parent="1" style="rounded=1;fillColor=#E3F2FD;strokeColor=#90CAF9;strokeWidth=2;dashed=1;" value="" vertex="1">
           <mxGeometry height="190" width="800" x="267" y="1329" as="geometry" />
         </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-2" parent="1" style="text;fontSize=15;fontStyle=1;fillColor=#BBDEFB;strokeColor=#64B5F6;rounded=1;" value="Native Layer (Rust)" vertex="1">
-          <mxGeometry height="40" width="180" x="287" y="1349" as="geometry" />
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-2" parent="1" style="text;fontSize=15;fontStyle=1;fillColor=#BBDEFB;strokeColor=#64B5F6;rounded=1;align=center;" value="Native Layer" vertex="1">
+          <mxGeometry height="34" width="141" x="286.75" y="1337" as="geometry" />
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-3" parent="1" style="rounded=1;fillColor=#BBDEFB;strokeColor=#64B5F6;fontStyle=1;fontSize=13;" value="try_new_spill()" vertex="1">
           <mxGeometry height="55" width="150" x="297" y="1409" as="geometry" />
@@ -745,17 +745,17 @@
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-4" parent="1" style="rhombus;fillColor=#FFF9C4;strokeColor=#FBC02D;fontStyle=1;fontSize=13;" value="isOnHeapAvailable()?" vertex="1">
           <mxGeometry height="95" width="160" x="547" y="1389" as="geometry" />
         </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-5" parent="1" style="rounded=1;fillColor=#C5E1A5;strokeColor=#7CB342;fontStyle=1;fontSize=13;" value="OnHeapSpill&#xa;(Rust Struct)&#xa;堆内存模式" vertex="1">
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-5" parent="1" style="rounded=1;fillColor=#C5E1A5;strokeColor=#7CB342;fontStyle=1;fontSize=13;" value="OnHeapSpill" vertex="1">
           <mxGeometry height="70" width="150" x="797" y="1349" as="geometry" />
         </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-6" parent="1" style="rounded=1;fillColor=#FFE0B2;strokeColor=#FB8C00;fontStyle=1;fontSize=13;" value="FileSpill&#xa;(Rust Struct)&#xa;磁盘模式" vertex="1">
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-6" parent="1" style="rounded=1;fillColor=#FFE0B2;strokeColor=#FB8C00;fontStyle=1;fontSize=13;" value="FileSpill" vertex="1">
           <mxGeometry height="70" width="150" x="797" y="1439" as="geometry" />
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-7" parent="1" style="rounded=1;fillColor=#FFF9C4;strokeColor=#FBC02D;strokeWidth=2;dashed=1;" value="" vertex="1">
           <mxGeometry height="120" width="800" x="267" y="1539" as="geometry" />
         </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-8" parent="1" style="text;fontSize=15;fontStyle=1;fillColor=#FFF59D;strokeColor=#FDD835;rounded=1;" value="JNI Bridge Layer" vertex="1">
-          <mxGeometry height="40" width="180" x="287" y="1559" as="geometry" />
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-8" parent="1" style="text;fontSize=15;fontStyle=1;fillColor=#FFF59D;strokeColor=#FDD835;rounded=1;align=center;" value="JNI Bridge Layer" vertex="1">
+          <mxGeometry height="32" width="138" x="286.75" y="1543" as="geometry" />
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-9" parent="1" style="rounded=1;fillColor=#FFF59D;strokeColor=#FDD835;fontStyle=1;fontSize=13;" value="JniBridge&#xa;getTaskOnHeapSpillManager()" vertex="1">
           <mxGeometry height="50" width="260" x="517" y="1569" as="geometry" />
@@ -766,20 +766,14 @@
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-11" parent="1" style="rounded=1;fillColor=#C8E6C9;strokeColor=#66BB6A;strokeWidth=2;dashed=1;" value="" vertex="1">
           <mxGeometry height="280" width="800" x="267" y="1709" as="geometry" />
         </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-12" parent="1" style="text;fontSize=15;fontStyle=1;fillColor=#A5D6A7;strokeColor=#81C784;rounded=1;" value="Java/Scala Layer" vertex="1">
-          <mxGeometry height="40" width="180" x="287" y="1729" as="geometry" />
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-12" parent="1" style="text;fontSize=15;fontStyle=1;fillColor=#A5D6A7;strokeColor=#81C784;rounded=1;align=center;" value="Java/Scala Layer" vertex="1">
+          <mxGeometry height="30" width="140" x="293" y="1719" as="geometry" />
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-13" parent="1" style="rounded=1;fillColor=#A5D6A7;strokeColor=#66BB6A;fontStyle=1;fontSize=13;" value="SparkOnHeapSpillManager&#xa;extends MemoryConsumer" vertex="1">
-          <mxGeometry height="70" width="220" x="297" y="1789" as="geometry" />
-        </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-14" parent="1" style="rounded=1;fillColor=#C8E6C9;strokeColor=#81C784;align=left;spacingLeft=15;fontSize=12;" value="• spills: ArrayBuffer[OnHeapSpill]&#xa;• numHoldingSpills: Int&#xa;• blockManager: BlockManager&#xa;• memUsed: Long" vertex="1">
-          <mxGeometry height="90" width="220" x="297" y="1879" as="geometry" />
+          <mxGeometry height="70" width="220" x="293" y="1826" as="geometry" />
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-15" parent="1" style="rounded=1;fillColor=#A5D6A7;strokeColor=#66BB6A;fontStyle=1;fontSize=13;" value="OnHeapSpill" vertex="1">
-          <mxGeometry height="50" width="160" x="577" y="1789" as="geometry" />
-        </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-16" parent="1" style="rounded=1;fillColor=#C8E6C9;strokeColor=#81C784;align=left;spacingLeft=15;fontSize=12;" value="• spillBuf: SpillBuf&#xa;• lock: ReentrantLock&#xa;• id: Int&#xa;• hsm: SpillManager" vertex="1">
-          <mxGeometry height="90" width="160" x="577" y="1859" as="geometry" />
+          <mxGeometry height="50" width="160" x="579" y="1834" as="geometry" />
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-17" parent="1" style="rounded=1;fillColor=#A5D6A7;strokeColor=#66BB6A;fontStyle=1;fontSize=13;" value="&lt;&lt;abstract&gt;&gt;&#xa;SpillBuf" vertex="1">
           <mxGeometry height="55" width="130" x="797" y="1749" as="geometry" />
@@ -788,16 +782,16 @@
           <mxGeometry height="50" width="130" x="797" y="1839" as="geometry" />
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-19" parent="1" style="rounded=1;fillColor=#FFE0B2;strokeColor=#FB8C00;fontSize=12;" value="FileBasedSpillBuf&#xa;(磁盘文件)" vertex="1">
-          <mxGeometry height="50" width="130" x="797" y="1909" as="geometry" />
+          <mxGeometry height="50" width="130" x="797" y="1927" as="geometry" />
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-20" parent="1" style="rounded=1;fillColor=#EEEEEE;strokeColor=#9E9E9E;fontSize=12;" value="ReleasedSpillBuf&#xa;(已释放)" vertex="1">
-          <mxGeometry height="50" width="130" x="957" y="1839" as="geometry" />
+          <mxGeometry height="50" width="130" x="933" y="1829" as="geometry" />
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-21" parent="1" style="rounded=1;fillColor=#F3E5F5;strokeColor=#BA68C8;strokeWidth=2;dashed=1;" value="" vertex="1">
           <mxGeometry height="260" width="800" x="267" y="2039" as="geometry" />
         </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-22" parent="1" style="text;fontSize=15;fontStyle=1;fillColor=#E1BEE7;strokeColor=#AB47BC;rounded=1;" value="内存管理流程" vertex="1">
-          <mxGeometry height="40" width="180" x="287" y="2059" as="geometry" />
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-22" parent="1" style="text;fontSize=15;fontStyle=1;fillColor=#E1BEE7;strokeColor=#AB47BC;rounded=1;align=center;" value="内存管理流程" vertex="1">
+          <mxGeometry height="32" width="130" x="293" y="2058" as="geometry" />
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-23" parent="1" style="rounded=1;fillColor=#E1BEE7;strokeColor=#AB47BC;fontStyle=1;fontSize=12;" value="Step 1&#xa;Native需要Spill" vertex="1">
           <mxGeometry height="50" width="140" x="297" y="2129" as="geometry" />
@@ -813,6 +807,9 @@
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-27" parent="1" style="rounded=1;fillColor=#FFCCBC;strokeColor=#FF7043;fontStyle=1;fontSize=12;" value="Step 4&#xa;压力增大时触发&#xa;spillInternal()" vertex="1">
           <mxGeometry height="50" width="150" x="687" y="2129" as="geometry" />
+        </mxCell>
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-53" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeColor=#666666;" target="jvVp0_Q_PJAggjKlECGZ-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-28" parent="1" style="rounded=1;fillColor=#FFE0B2;strokeColor=#FB8C00;fontStyle=1;fontSize=12;" value="Step 5&#xa;MemBased&#xa;→ FileBased转换" vertex="1">
           <mxGeometry height="50" width="150" x="687" y="2209" as="geometry" />
@@ -863,20 +860,24 @@
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-42" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-9" style="endArrow=classic;strokeWidth=2;strokeColor=#66BB6A;exitX=0;exitY=1;entryX=0.5;entryY=0;" target="jvVp0_Q_PJAggjKlECGZ-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-43" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-13" style="endArrow=classic;strokeWidth=2;strokeColor=#81C784;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="jvVp0_Q_PJAggjKlECGZ-15" value="manages">
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-43" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-13" style="endArrow=classic;strokeWidth=2;strokeColor=#81C784;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=none;exitDx=0;exitDy=0;" target="jvVp0_Q_PJAggjKlECGZ-15" value="manages">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-44" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-15" style="endArrow=classic;strokeWidth=2;strokeColor=#81C784;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="jvVp0_Q_PJAggjKlECGZ-17" value="holds">
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-44" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-15" style="endArrow=classic;strokeWidth=2;strokeColor=#81C784;exitX=1;exitY=0.3;entryX=0;entryY=0.5;labelBackgroundColor=none;" target="jvVp0_Q_PJAggjKlECGZ-17" value="holds">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-45" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-17" style="endArrow=block;endFill=0;strokeWidth=2;strokeColor=#81C784;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="jvVp0_Q_PJAggjKlECGZ-18" value="初始状态">
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-45" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-17" style="endArrow=block;endFill=0;strokeWidth=2;strokeColor=#81C784;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=none;" target="jvVp0_Q_PJAggjKlECGZ-18" value="初始状态">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-46" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-18" style="endArrow=classic;strokeWidth=3;strokeColor=#FB8C00;curved=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="jvVp0_Q_PJAggjKlECGZ-19" value="内存不足转换">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-46" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-18" style="endArrow=classic;strokeWidth=3;strokeColor=#FB8C00;curved=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=none;" target="jvVp0_Q_PJAggjKlECGZ-19" value="内存不足转换">
+          <mxGeometry relative="1" x="-0.2632" y="41" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="jvVp0_Q_PJAggjKlECGZ-47" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-17" style="endArrow=block;endFill=0;strokeWidth=2;strokeColor=#9E9E9E;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="jvVp0_Q_PJAggjKlECGZ-20" value="释放后">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="jvVp0_Q_PJAggjKlECGZ-47" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-17" style="endArrow=block;endFill=0;strokeWidth=2;strokeColor=#9E9E9E;dashed=1;exitX=1;exitY=0.5;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jvVp0_Q_PJAggjKlECGZ-20" value="释放后">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="933" y="1844" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jvVp0_Q_PJAggjKlECGZ-48" edge="1" parent="1" source="jvVp0_Q_PJAggjKlECGZ-23" style="endArrow=classic;strokeWidth=2;strokeColor=#AB47BC;" target="jvVp0_Q_PJAggjKlECGZ-24">
           <mxGeometry relative="1" as="geometry" />
